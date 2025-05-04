@@ -6,7 +6,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import br.com.montadora.model.Carro;
 import br.com.montadora.model.Moto;
 
 public class MotoDAO {
@@ -84,7 +83,7 @@ public class MotoDAO {
 			ResultSet rs = ps.executeQuery();
 			if(rs != null) {
 				while(rs.next()) {
-				    Moto moto = new Moto();{
+				    Moto moto = new Moto();
 					moto.setMontadora(rs.getString(1));
 					moto.setNome(rs.getString(2));
 					moto.setQuantidadeAdesivos(rs.getInt(3));

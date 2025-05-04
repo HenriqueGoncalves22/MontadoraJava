@@ -6,9 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import br.com.escola.model.Professor;
 import br.com.montadora.model.Carro;
-import br.com.montadora.model.Moto;
 
 public class CarroDAO {
 	
